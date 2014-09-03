@@ -1,0 +1,26 @@
+*, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkslategray; 
+    border: 1px solid black;
+}
+header p {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+h2 a:hover {
+    color: teal;
+    transition: color 150ms ease-out;
+}
+.pure-u-md-1-4 {
+    border: 1px solid black;
+    text-align: center;
+}

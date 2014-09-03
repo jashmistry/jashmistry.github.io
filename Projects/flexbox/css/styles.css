@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+header {
+    background-color: #f89696;
+}
+aside {
+    background-color: #735d41;
+}
+article {
+    flex: 3;
+    display: flex;
+    background-color: teal;
+}
+article ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex:1;
+}
+article ul li {
+    flex: 1;
+}
+article ul li {
+    background-color: maroon;
+}
+article ul li:first-child {
+    background-color: teal;
+}
+article ul li:last-child {
+    background-color: pink;
+}
+footer {
+    background-color: cyan;
+}
+
+body {
+    display: flex;
+    flex-direction: column-reverse;
+}
+header {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header div {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside {
+    flex: 1;
+}
+article {
+    flex: 2;
+}
+footer {
+    flex: none;
+    height: 50px;
+}

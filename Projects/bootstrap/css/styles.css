@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box; 
+}
+
+
+header {
+    width: 100%;
+    height: 335px;
+    background-color: darkslategray;
+}
+content {
+    width: 100%;
+    height: 700px;
+    background-color: darkslategray;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+}
+.jumbotron {
+    background-color: darkslategray;
+    width: 99%;
+    height: 265px;
+    margin-left: 5px;
+}
+footer {
+    background-color: orange;
+    height: 650px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
